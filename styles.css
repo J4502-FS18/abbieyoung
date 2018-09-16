@@ -1,81 +1,61 @@
-html {
-	font-size: 100%
+p{
+	color:#666666:
+	font-family: Helvetica, Arial, sans-serif;
 }
 
-p {
-    font-family: "Merriweather", Georgia, "Times New Roman", serif;
-	font-size: 1rem;
-	line-height: 1.5rem;
-}
-
-.italic {
-	font-style: italic;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
-}
-
-h1 {
-	font-size: 2.5rem;
-}
-
-h2 {
-	font-size: 1.5rem
+h1{
+  font-family:Georgia, "Times New Roman", serif;
 }
 
 body{
-	background-color:#ebe3ce;
+  background-color:#ebe3ce;
 }
 
 #container{
-    width: 95%;
-    background-color: #ffffff;
-    margin: 0 auto;
+  background-color:#ffffff;
+  width:95%;
+  margin:0 auto;
+  padding:10px 25px;
 }
 
-#nav {
-    padding: 0;
-	list-style-type: none;
+img{
+  width:50%;
 }
 
-#nav li {
-    margin: 0;
-    padding: 0;
-	border-bottom: 1px solid #ccc;
-	text-decoration: none;
+nav li{
+  list-style-type: none;
+  text-align:center;
+  width:100%;
+  padding: 5px;
+  background-color: #98bf21;
+  margin: 0 auto;
 }
 
-#nav a:link, a:visited {
-	display:block;
-    color: #ffffff;
-    background-color: #98bf21;
-    font-weight: bold;
-    text-align:center;
-    text-decoration: none;
-    padding: 4px;
-    font-family: Helvetica, Arial, sans-serif;
+nav {
+  padding:0;
 }
 
-#nav a:hover, a:active {
-    background-color: #7a991a;
-}
+nav a:link, nav a:visited{
+  color:#ffffff;
+  background-color: #98bf21;
+  font-weight: bold;
+  text-align:center;
+  text-decoration:none;
+  font-family: Helvetica, Arial, sans-serif;
+  padding:4px;
 
-.caption {
-    color: black;
-    font-family: "Merriweather", Georgia, "Times New Roman", serif;
-    font-style: italic;
-    font-size: 0.8em;
-    margin-top: 0;
-    text-align: right;
-}
-
-#footer {
-    color: black;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 0.8em;
-    border-top: 1px solid black;
 }
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+a

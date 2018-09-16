@@ -28,7 +28,7 @@ nav li{
   text-align:center;
   width:100%
   padding:5px;
-  background-color:##F0F8FF;
+  background-color:#98bf21;
   margin:0 auto;
   border:2px solid #ffffff
 }
@@ -45,7 +45,7 @@ nav a:link, nav a:visited{
 }
 
 nav a:hover, nav a:active{
-  background-color:##F0F8FF;
+  background-color:#7a991a;
 }
 
 .caption{

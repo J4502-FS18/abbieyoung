@@ -2,3 +2,77 @@ p{
   color:#666666;
   font-family: Helvetica, Arial, sans-serif;
 }
+
+h1{
+  font-family:Georgia, "Times New Roman", serif;
+}
+
+body{
+  background-color:#ebe3ce;
+}
+
+#container{
+  background-color:#ffffff;
+  width:95%;
+  margin:0 auto;
+  padding:10px 25px;
+}
+
+img{
+  width:50%;
+  border:0;
+}
+
+nav li{
+  list-style-type: none;
+  text-align:center;
+  width:100%
+  padding:5px;
+  background-color:#98bf21;
+  margin:0 auto;
+  border:2px solid #ffffff
+}
+
+nav ul {
+  padding:0;
+}
+
+nav a:link, nav a:visited{
+  color:#ffffff
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+nav a:hover, nav a:active{
+  background-color:#7a991a;
+}
+
+.caption{
+  color:black;
+  font-family:Georgia, "Times New Roman", serif;
+  font-size:0.8em;
+  font-style: italic;
+  margin-top:0;
+}
+
+#footer{
+  color:black;
+  font-family:Georgia,"Times New Roman", serif;
+  font-size:0.8em;
+  border-top:1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+a

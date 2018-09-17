@@ -59,7 +59,7 @@ body{
 #nav a:link, nav a:visited{
   display:block;
     color:#669acb;
-    background-color: #ffffff;
+    background-color: #669acb;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
@@ -85,7 +85,7 @@ body{
   font-family:Georgia,"Times New Roman", serif;
   font-size:0.8em;
   border-top:1px solid black;
-            background-color: #669abc
+            background-color: #669acb
 }
 
 

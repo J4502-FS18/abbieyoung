@@ -23,7 +23,7 @@ img{
   border:0;
 }
 
-#nav li{
+nav li{
   list-style-type: none;
   text-align:center;
   width:100%
@@ -33,18 +33,18 @@ img{
   border:2px solid #ffffff
 }
 
-#nav ul {
+nav ul{
   padding:0;
 }
 
-#nav a:link, nav a:visited{
+nav a:link, nav a:visited{
   color:#ffffff
-  fontbold;
+  font-weight: bold;
   text-decoration: none;
   font-family: Helvetica, Arial, sans-serif;
 }
 
-#nav a:hover, nav a:active{
+nav a:hover, nav a:active{
   background-color:#7a991a;
 }
 

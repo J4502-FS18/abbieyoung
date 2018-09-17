@@ -17,7 +17,7 @@ p{
 image{
         border: none;
   width:auto;
-  height:500px;
+  height:100px;
 }
 
 h1, h2, h3{
@@ -58,8 +58,8 @@ body{
 
 #nav a:link, nav a:visited{
   display:block;
-    color:#ff0000;
-    background-color: #ff0000;
+    color:#669acb;
+    background-color: #669acb;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
@@ -85,7 +85,7 @@ body{
   font-family:Georgia,"Times New Roman", serif;
   font-size:0.8em;
   border-top:1px solid black;
-            background-color: #ff0000
+            background-color: #669abc
 }
 
 

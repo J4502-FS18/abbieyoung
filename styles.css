@@ -38,7 +38,7 @@ nav ul{
 }
 
 nav a:link, nav a:visited{
-  color:#ffffff
+  color:#ffffff;
   font-weight: bold;
   text-decoration: none;
   font-family: Helvetica, Arial, sans-serif;

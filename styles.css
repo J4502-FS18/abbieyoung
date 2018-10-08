@@ -63,7 +63,7 @@ body{
     text-align:center;
     text-decoration: none;
     padding: 4px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #nav .item:hover, #nav .item:active{

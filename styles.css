@@ -12,9 +12,6 @@
   text-align:center;
 }
 
-  {font-size:100%
-}
-
 p{
     color:#EC7063;
   font-family: 'Lato', sans-serif;
@@ -48,7 +45,6 @@ body{
 
 #nav{
   padding:0;
-  list-style-type: none;
 }
 
 #nav .item{
@@ -60,7 +56,7 @@ body{
   background-color:#669acb
 }
 
-.item a:link, nav a:visited{
+.item a:link, .item a:visited{
     color:#ffffff;
     background-color: #669acb;
     font-weight: bold;
@@ -71,7 +67,7 @@ body{
 }
 
 #nav .item:hover, #nav .item:active{
-  background-color:#ffffff;
+  background-color:#669acb;
 }
 
 img{

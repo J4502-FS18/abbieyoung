@@ -27,12 +27,6 @@ p{
   font-style: italic;
 }
 
-image{
-        border: none;
-  width:auto;
-  height:200px;
-}
-
 h1, h2, h3{
   font-family:Georgia, "Times New Roman", serif;
 }
@@ -63,8 +57,7 @@ body{
   width:95%;
   margin:2px;
   padding:10px;
-  border-bottom: 1px solid #ccc;
-  text-decoration: none;
+  background-color:#669acb
 }
 
 .item a:link, nav a:visited{

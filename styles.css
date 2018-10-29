@@ -20,14 +20,18 @@ html{
 
 }
 
+#d {
+  grid-area:d;
+}
 
 
-@media screen and (min-width: 800px) {
+
+@media screen and (min-width: 700px) {
     .item1 {
       margin-right: auto;
     }
 
-    nav div class {
+    nav ul li {
       margin: 5px;
     }
 
@@ -41,11 +45,11 @@ html{
     grid-gap: 20px;
     grid-template-areas:
         "a b b"
-				                    ". c c"}
-
-		#nav {
-				 max-width: 1050px
-			 }
+        ". . d"
+        ". c c"
+                #nav{
+                  max-width: 1050px
+                }
   }
 
 	@media screen and (min-width: 1200px) {
@@ -56,25 +60,12 @@ html{
 	    grid-template-areas:
 	    "a b b ."
 	    ". . c c"
+      "d . . ."
 	  }
 	  #nav {
 	    max-width: 1300px
 	  }
 	}
-
-#container{
-  width:95%;
-  margin:0 auto;
-  padding:40px 30px;
-  background-color:#ffffff
-}
-
-#main{
-  width:70%;
-  margin:0 auto;
-  padding:10px;
-  text-align:center;
-}
 
 p{
     color:#EC7063;
@@ -86,6 +77,12 @@ p{
 
 .italic{
   font-style: italic;
+}
+
+image{
+  border:none;
+  width:auto;
+  height: 260px;
 }
 
 h1, h2, h3{
@@ -165,13 +162,17 @@ img{
   Flexbox
 ==================================== */
 
-.flexbox{
+ul{
       display: flex;
       flex-direction: column;
 }
 
+li{
+      flex: 1 1 auto;
+}
+
 @media (min-width: 700px){
-        .flexbox{
+        ul{
                 flex-direction: row;
                 justify-content:center;
         }
@@ -179,7 +180,7 @@ img{
 
 @media (min-width: 800px) {
 
-        .item {
+        li{
                 margin-right: auto;
         }
 }

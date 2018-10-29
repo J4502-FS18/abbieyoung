@@ -5,67 +5,39 @@ html{
 #a{
   grid-area:a;
   width:400px;
-
 }
+
 
 #b{
   grid-area:b;
-
 }
+
 
 
 
 #c{
   grid-area:c;
-
 }
 
-#d {
+
+
+
+#d{
   grid-area:d;
 }
-
-
-
-@media screen and (min-width: 700px) {
-    .item1 {
-      margin-right: auto;
-    }
-
-    nav ul li {
-      margin: 5px;
-    }
-
-
+#container{
+  width:95%;
+  margin:0 auto;
+  padding:40px 30px;
+  background-color:#ffffff
 }
 
-@media screen and (min-width:1000px) {
-  main {
-    display: grid;
-    grid-template-columns: 200px 1fr 1fr;
-    grid-gap: 20px;
-    grid-template-areas:
-        "a b b"
-        ". . d"
-        ". c c"
-                #nav{
-                  max-width: 1050px
-                }
-  }
-
-	@media screen and (min-width: 1200px) {
-	  main {
-	    display: grid;
-	    grid-template-columns: 200px 1fr 1fr 1fr;
-	    grid-gap: 20px;
-	    grid-template-areas:
-	    "a b b ."
-	    ". . c c"
-      "d . . ."
-	  }
-	  #nav {
-	    max-width: 1300px
-	  }
-	}
+#main{
+  width:70%;
+  margin:0 auto;
+  padding:10px;
+  text-align:center;
+}
 
 p{
     color:#EC7063;
@@ -77,12 +49,6 @@ p{
 
 .italic{
   font-style: italic;
-}
-
-image{
-  border:none;
-  width:auto;
-  height: 260px;
 }
 
 h1, h2, h3{
@@ -158,21 +124,13 @@ img{
   color:#D9BE67;
 }
 
-/* =================================
-  Flexbox
-==================================== */
-
-ul{
+.flexbox{
       display: flex;
       flex-direction: column;
 }
 
-li{
-      flex: 1 1 auto;
-}
-
 @media (min-width: 700px){
-        ul{
+        .flexbox{
                 flex-direction: row;
                 justify-content:center;
         }
@@ -180,7 +138,7 @@ li{
 
 @media (min-width: 800px) {
 
-        li{
+        .item {
                 margin-right: auto;
         }
 }

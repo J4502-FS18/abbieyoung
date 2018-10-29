@@ -64,7 +64,7 @@ html{
     "d . . ."
   }
   #nav {
-    max-width:1300px
+    max-width:100px
   }
 }
 
@@ -84,7 +84,7 @@ p{
 image{
   border: none;
   width:auto;
-  height:260px
+  height:250px
 }
 
 h1, h2, h3{
@@ -120,7 +120,7 @@ body{
 #nav li {
   nargin: 0;
   padding: 0;
-    border-bottom:1px solid #669acb;
+    border-bottom:2px solid #669acb;
     text-decoration: none;
 }
 
@@ -178,7 +178,7 @@ li{
 @media (min-width: 700px){
       ul {
                 flex-direction: row;
-                justify-content: space-between;
+                justify-content:center;
         }
 }
 

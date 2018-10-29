@@ -28,7 +28,7 @@ html{
 
 
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 780px){
   .item1 {
     margin-right:auto;
   }
@@ -38,19 +38,19 @@ html{
 }
 
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:980px){
   article{
-      display:grid;
+      display: grid;
       grid-template-columns:200px 1fr 1fr;
       grid-gap: 20px;
       grid-template-areas:
         "a b b"
-                            ". . d"
-                                  ". c c"}
+                  ". . d"
+                        ". c c"}
 
-                #nav{
-                                  max-width: 1050px
-                          }
+              #nav{
+                        max-width: 1030px
+                    }
 }
 
 @media screen and (min-width: 1200px){
@@ -64,7 +64,7 @@ html{
     "d . . ."
   }
   #nav {
-    max-width:100px
+    max-width:1200px
   }
 }
 
@@ -124,10 +124,11 @@ body{
     text-decoration: none;
 }
 
+
 #nav a:link, a:visited{
       display:block;
     color:#ffffff;
-    background-color: #FF0000;
+    background-color: #143fcc;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
@@ -135,7 +136,7 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#nav a:hover, a:active{
+#nav a:hover, a:active {
   background-color:#FF0000;
 }
 
@@ -145,7 +146,7 @@ body{
   font-size:0.8em;
   font-style: italic;
   margin-top:0;
-  text-align: center;
+  text-align: right;
 }
 
 #footer p{
@@ -175,10 +176,10 @@ li{
 }
 
 
-@media (min-width: 700px){
+@media (min-width: 500px) {
       ul {
                 flex-direction: row;
-                justify-content:center;
+                justify-content: space-between;
         }
 }
 

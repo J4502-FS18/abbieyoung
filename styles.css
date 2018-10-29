@@ -32,8 +32,9 @@ html{
   .item1 {
     margin-right:auto;
   }
+
   nav ul li{
-    margin: 5px;
+    margin: 8px;
   }
 }
 
@@ -176,7 +177,7 @@ li{
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
       ul {
                 flex-direction: row;
                 justify-content: space-between;

@@ -26,14 +26,17 @@ html{
   grid-area:d;
 }
 
+
+
 @media screen and (min-width: 780pc){
-  .item {
+  .item1 {
     margin-right:auto;
   }
   nav ul li{
     margin: 8px;
   }
 }
+
 
 @media screen and (min-width:980px){
   article{
@@ -42,12 +45,12 @@ html{
       grid-gap: 20px;
       grid-template-areas:
         "a b b"
-        ". . d"
-        ". c c"}
+                            ". . d"
+                                  ". c c"}
 
-        #nav{
-          max-width: 1010px
-        }
+                #nav{
+                                  max-width: 1010px
+                          }
 }
 
 @media screen and (min-width: 1200px){
@@ -64,19 +67,6 @@ html{
     max-width:1200px
   }
 }
-#container{
-  width:95%;
-  margin:0 auto;
-  padding:40px 30px;
-  background-color:#ffffff
-}
-
-#main{
-  width:70%;
-  margin:0 auto;
-  padding:10px;
-  text-align:center;
-}
 
 p{
     color:#EC7063;
@@ -84,10 +74,17 @@ p{
     font-size: 1rem;
     line-height: 1.5rem;
     text-align: center;
-}
+
+  }
 
 .italic{
   font-style: italic;
+}
+
+image{
+  border: none;
+  width:auto;
+  height:250px
 }
 
 h1, h2, h3{
@@ -108,12 +105,19 @@ body{
   background-color:#9dacbb;
 }
 
+#container{
+  width:95%;
+  margin:0 auto;
+  padding:40px 30px;
+  background-color:#ffffff
+}
+
 
 #nav{
   padding:0;
 }
 
-#nav .item{
+#nav li {
   list-style:none;
   text-align:center;
   width:95%;
@@ -122,7 +126,8 @@ body{
   background-color:#669acb
 }
 
-.item a:link, .item a:visited{
+#nav a:link, a:visited{
+      display:block;
     color:#ffffff;
     background-color: #FF0000;
     font-weight: bold;
@@ -132,14 +137,8 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#nav .item:hover, #nav .item:active{
+#nav a:hover, a:active{
   background-color:#FF0000;
-}
-
-img{
-  width:100%;
-  margin:15px 0 30px 0;
-  border:0;
 }
 
 .caption{
@@ -163,10 +162,6 @@ img{
   color:#D9BE67;
 }
 
-.flexbox{
-      display: flex;
-      flex-direction: column;
-}
 
 /*=================================
 Flexbox

@@ -48,8 +48,8 @@ html{
     grid-gap: 20px;
     grid-template-areas:
         "a b b"
-			  ". . d"
-				". c c"}
+			               ". . d"
+				                    ". c c"}
 
 		#nav {
 				 max-width: 1050px

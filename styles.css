@@ -164,18 +164,18 @@ nav a:hover, a:active {
 
 nav ul li{
   display:block;
-  border-top:1px #2f4272 solid;
+  border-top:1px #79896d solid;
 }
 
 nav a{
   color:#f8ecc2;
   display: block;
   text-decoration: none;
-  padding: 25px 35px;
+  padding: 10px 20px;
 }
 
 header{
-  background-color: #65A8A6;
+  background-color: #394684;
   margin: 0;
   padding:0 10px;
   display:flex;

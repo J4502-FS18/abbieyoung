@@ -4,9 +4,9 @@ $('nav ul').slideToggle(500);
 });
 
 
-$(window).resized(function(){
+$(window).resize(function(){
   if ($(window).width()>500){
-    $('nav ul').removwAttr('style');
+    $('nav ul').removeAttr('style');
   }
 });//end resize
 });//end ready
